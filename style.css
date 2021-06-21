@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+}
+
+p {
+    color: rgb(36, 124, 65)
+}
+
+.kartya {
+    height: 500px;
+    transition: height 1s;
+}
+
+.kartya:hover {
+    height: 505px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+    margin-top: 50px;
+}
+
+#kezdes {
+    background-color: rgb(83, 126, 218);
+    font-size: large;
+    border-radius: 10px;
+    transition: font-size 1s;
+}
+
+#kezdes:hover {
+    font-size: x-large;
+}
+
+#retry {
+    background-color: rgb(83, 126, 218);
+    font-size: large;
+    border-radius: 10px;
+    transition: font-size 1s;
+}
+
+#retry:hover {
+    font-size: x-large;
+}
+
+#valasz {
+    font-size: x-large;
+}
